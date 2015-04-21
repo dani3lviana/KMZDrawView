@@ -140,4 +140,8 @@
     return [self.currentFrame isRedoable];
 }
 
+- (void)clear {
+    return [self.currentFrame clear];
+}
+
 @end

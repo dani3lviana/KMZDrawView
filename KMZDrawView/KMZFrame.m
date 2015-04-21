@@ -82,6 +82,11 @@
     return self.lineCursor > 0;
 }
 
+- (void)clear {
+    self.lineCursor = 0;
+    [self drawImage];
+}
+
 - (BOOL)isRedoable {
     return [self.lines count] > self.lineCursor;
 }

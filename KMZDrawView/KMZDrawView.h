@@ -24,5 +24,6 @@
 - (void)redo;
 - (BOOL)isUndoable;
 - (BOOL)isRedoable;
+- (void)clear;
 
 @end
