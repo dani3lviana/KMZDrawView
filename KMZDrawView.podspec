@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = "KMZDrawView"
-  s.version      = "0.0.1"
+  s.version      = "0.0.2"
   s.summary      = "KMZDrawView is a simple drawing view for iOS."
   s.homepage     = "https://github.com/kenmaz/KMZDrawView"
   s.license      = { :type => "MIT", :file => "LICENSE" }
