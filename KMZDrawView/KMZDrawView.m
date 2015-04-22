@@ -141,7 +141,10 @@
 }
 
 - (void)clear {
-    return [self.currentFrame clear];
+    [self.currentFrame clear];
+    self.image = self.currentFrame.image;
+    self.currentLine = nil;
+    [self setNeedsDisplay];
 }
 
 @end
